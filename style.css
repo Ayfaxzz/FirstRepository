@@ -268,11 +268,18 @@
 .footer-content {
     display: flex;
     gap: 15px;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 .footer-box {
     max-width: 261px;
     width: 100%;
+}
+
+.footer-box2 {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
 }
 .footer-logo-link {
     font-size: 16px;
